@@ -1,0 +1,28 @@
+:root {
+    --family: 'Bakbak One', 'Segoe UI';
+}
+
+body {
+    font-family: var(--family);
+    background-color: #0d172d;
+    padding-bottom: 50px;
+}
+
+a, input {
+    font-family: var(--family);
+}
+
+select {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+input::placeholder {
+    font-family: var(--family);
+}
+
+
+@keyframes animate-fade {
+    50% {
+        opacity: 0.6;
+    }
+}
